@@ -2,8 +2,8 @@
 </script>
 
 <body class="bg-white">
-	<header>
-	  <nav class="p-6">
+	<header class="bg-gray-100 p-10" style="padding-bottom: 5rem;">
+	  <nav class="pb-14 px-14">
 		<div class="flex justify-between items-center">
 		  <h1 class="pr-6 border-r-2 text-2xl font-bold text-gray-500">Intern Academy</h1>
 		  <div class="flex justify-between flex-grow">
@@ -17,31 +17,34 @@
 		</div>
 	  </nav>
 	  <!-- Section Hero -->
-	  <div class="container mx-auto bg-gray-400 h-96 rounded-md flex items-center">
+	  <div class="container mx-auto bg-gray-400 h-96 rounded-md flex items-center outline outline-4  outline-offset-2 outline-violet-500">
 		<div class="sm:ml-20 text-gray-50 text-center sm:text-left">
 		  <h1 class="text-5xl font-bold mb-4">
 			Article of the week
 		  </h1>
 		  <p class="text-lg inline-block sm:block">The beginners guide to Svelte and Web3</p>
-		  <button class="mt-8 px-4 py-2 bg-gray-600 rounded">Read article</button>
+		  <button class="mt-8 px-4 py-2 bg-violet-600 rounded">Read article</button>
 		</div>
 	  </div>
 	</header>
-	<main class="py-16 container mx-auto px-6 md:px-0">
+	<main class="py-16 container mx-auto px-4 md:px-0">
 	  <section>
 		<h1 class="text-3xl font-bold text-gray-600 mb-10">More content</h1>
 		<div class="grid sm:grid-cols-3 gap-4 grid-cols-2">
 		  <div>
 			<div class="bg-gray-300 h-44"></div>
-			<h3 class="text-lg font-semibold text-gray-500 mt-2">Test</h3>
+			<h3 class="text-lg font-semibold text-gray-500 mt-4 pl-4">Article 1</h3>
+			<p class="p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 		  </div>
 		  <div>
 			<div class="bg-gray-300 h-44"></div>
-			<h3 class="text-lg font-semibold text-gray-500 mt-2">Test</h3>
+			<h3 class="text-lg font-semibold text-gray-500 mt-4 pl-4">Article 2</h3>
+			<p class="p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 		  </div>
 		  <div>
 			<div class="bg-gray-300 h-44"></div>
-			<h3 class="text-lg font-semibold text-gray-500 mt-2">Test</h3>
+			<h3 class="text-lg font-semibold text-gray-500 mt-4 pl-4">Article 3</h3>
+			<p class="p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 		  </div>
 		</div>
 		<hr class="w-40 my-14 border-4 rounded-md sm:mx-0 mx-auto" />
@@ -73,35 +76,15 @@
 	<footer class="mb-6 px-6 md:px-0">
 	  <div class="grid gap-5 grid-cols-5 container mx-auto space-x-6">
 		<div>
-		  <h1 class="text-2xl font-bold text-gray-500">saunatime</h1>
+		  <h1 class="text-2xl font-bold text-gray-500">Intern Academy</h1>
 		  <p>The largest online community to rent saunas in Finland.</p>
-		  <spa>© Sharetribe 2017.</spa>
+		  <spa>© 0xIntern 2021.</spa>
 		</div>
 		<div class="pt-2">
 		  <ul>
-			<li>Add your sauna</li>
 			<li>About us</li>
 			<li>F.A.Q</li>
 			<li>Help</li>
-			<li>Contact</li>
-		  </ul>
-		</div>
-		<div class="pt-2">
-		  <ul>
-			<li>Helsinki</li>
-			<li>Espoo</li>
-			<li>Ruka</li>
-			<li>Tampere</li>
-			<li>Turku</li>
-		  </ul>
-		</div>
-		<div class="pt-2">
-		  <ul>
-			<li>Kuopio</li>
-			<li>Mikkeli</li>
-			<li>Espoo</li>
-			<li>Vantaa</li>
-			<li>Ahvenanmaa</li>
 		  </ul>
 		</div>
 		<div class="pt-2">
