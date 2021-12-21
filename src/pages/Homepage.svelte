@@ -5,19 +5,7 @@ import BeginnersGuide from "./Beginners-guide.svelte";
 
 <body class="bg-white">
 	<header class="bg-gray-100 p-10" style="padding-bottom: 5rem;">
-	  <nav class="pb-14 px-14">
-		<div class="flex justify-between items-center">
-		  <h1 class="pr-6 border-r-2 text-2xl font-bold text-gray-500">Intern Academy</h1>
-		  <div class="flex justify-between flex-grow">
-			<div class="flex ml-6 items-center font-bold text-gray-500">
-			  <h1>An OpenSource repository for Web3 knowledge</h1>
-			</div>
-			<div class="md:flex space-x-6 hidden">
-			  <span class="text-gray-500 text-md">+ Add your article</span>
-			</div>
-		  </div>
-		</div>
-	  </nav>
+	 
 	  <!-- Section Hero -->
 	  <div class="container mx-auto bg-gray-400 h-96 rounded-md flex items-center outline outline-4  outline-offset-2 outline-violet-500">
 		<div class="sm:ml-20 text-gray-50 text-center sm:text-left">

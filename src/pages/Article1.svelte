@@ -1,14 +1,15 @@
 <script>
   import {Link } from "svelte-routing";
+  import FaArrowLeft from 'svelte-icons/fa/FaArrowLeft.svelte'
 </script>
 
 <div>
     <div class="flex flex-col">
-        <Link to="/"><button class="m-5 p-3 w-20 bg-indigo-500 text-white rounded-full hover:bg-indigo-700">Back</button></Link>
-        <h1 class="p-7 text-5xl text-gray-700">Solidity</h1>
+        <Link to="/"><button class="m-20 mb-2 mt-10 p-2 w-10 text-gray-700 h-10"><FaArrowLeft /></button></Link>
+        <h1 class="p-20 pb-0 pt-5 text-2xl font-bold text-gray-700">Solidity</h1>
     </div>
 
-<p class="p-7 text-2xl text-gray-900">Solidity is an object-oriented, high-level language for implementing smart contracts. Smart contracts are programs which govern the behaviour of accounts within the Ethereum state.
+<p class="p-20 pb-0 pt-5 text-gray-900">Solidity is an object-oriented, high-level language for implementing smart contracts. Smart contracts are programs which govern the behaviour of accounts within the Ethereum state.
 
     Solidity is a curly-bracket language. It is influenced by C++, Python and JavaScript, and is designed to target the Ethereum Virtual Machine (EVM). You can find more details about which languages Solidity has been inspired by in the language influences section.
     

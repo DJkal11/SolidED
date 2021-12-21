@@ -1,14 +1,15 @@
 <script>
     import {Link } from "svelte-routing";
+    import FaArrowLeft from 'svelte-icons/fa/FaArrowLeft.svelte'
   </script>
   
   <div>
       <div class="flex flex-col">
-          <Link to="/"><button class="m-5 p-3 w-20 bg-indigo-500 text-white rounded-full hover:bg-indigo-700">Back</button></Link>
-          <h1 class="p-7 text-5xl text-gray-700">Transactions</h1>
+        <Link to="/"><button class="m-20 mb-2 mt-10 p-2 w-10 text-gray-700 h-10"><FaArrowLeft /></button></Link>
+          <h1 class="p-20 pb-0 pt-5 text-2xl font-bold text-gray-700">Transactions</h1>
       </div>
   
-  <p class="p-7 text-2xl text-gray-900">A blockchain is a globally shared, transactional database. 
+  <p class="p-20 pb-0 pt-5 text-gray-900">A blockchain is a globally shared, transactional database. 
       This means that everyone can read entries in the database just by participating in the network. 
       If you want to change something in the database, you have to create a so-called transaction which has to be accepted by all others. 
       The word transaction implies that the change you want to make (assume you want to change two values at the same time) 

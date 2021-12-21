@@ -1,14 +1,15 @@
 <script>
     import {Link } from "svelte-routing";
+    import FaArrowLeft from 'svelte-icons/fa/FaArrowLeft.svelte'
   </script>
   
   <div>
       <div class="flex flex-col">
-          <Link to="/"><button class="m-5 p-3 w-20 bg-indigo-500 text-white rounded-full hover:bg-indigo-700">Back</button></Link>
-          <h1 class="p-7 text-5xl text-gray-700">Beginners guide to Svelte and Web3</h1>
+        <Link to="/"><button class="m-20 mb-2 mt-10 p-2 w-10 text-gray-700 h-10"><FaArrowLeft /></button></Link>
+          <h1 class="p-20 pb-0 pt-5 text-2xl font-bold text-gray-700">Beginners guide to Svelte and Web3</h1>
       </div>
   
-  <p class="p-7 text-2xl text-gray-900">Svelte provides a different approach to building web apps than some of the other 
+  <p class="p-20 pb-0 pt-5 text-gray-900">Svelte provides a different approach to building web apps than some of the other 
       frameworks covered in this module. While frameworks like React and Vue do the bulk of their work in the user's browser 
       while the app is running, Svelte shifts that work into a compile step that happens only when you build your app, 
       producing highly-optimized vanilla JavaScript.
